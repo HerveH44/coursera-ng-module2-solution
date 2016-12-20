@@ -52,7 +52,6 @@
       itemsBought.push(item);
       itemsToBuy.splice(itemIndex, 1);
     };
-
     service.getItemsToBuy = function() {
       return itemsToBuy;
     };
